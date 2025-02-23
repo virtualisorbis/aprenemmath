@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Learning Website</title>
+
+  <!-- p5.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+
+  <!-- Optional: MathJax for LaTeX -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lloc Web d'Aprenentatge de Matemàtiques</h1>
+    <div class="nav-buttons">
+      <button onclick="showSection('algebra')">Fonaments d'Àlgebra</button>
+      <button onclick="showSection('geometry')">Geometria</button>
+      <button onclick="showSection('quiz')">Qüestionari</button>
+      <button onclick="showSection('logic')">Lògica</button>
+      <button onclick="showSection('equation')">Equacions</button>
+    </div>
+
+    <div id="content"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

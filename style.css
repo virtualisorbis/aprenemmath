@@ -1,0 +1,142 @@
+/* Basic reset & body styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #edf2f7, #ffffff);
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.nav-buttons {
+  margin-bottom: 20px;
+}
+
+.nav-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #2563eb;
+}
+
+#content {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #444;
+  text-align: center;
+}
+
+.explanation {
+  margin: 0 auto 20px;
+  max-width: 700px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #555;
+}
+
+.explanation p {
+  margin-bottom: 1rem;
+}
+
+#p5-container {
+  width: 600px;
+  height: 450px;
+  margin: 20px auto;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background: #f0f0f0;
+  position: relative;
+}
+
+button.next-btn {
+  background-color: #10b981;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.next-btn:hover {
+  background-color: #059669;
+}
+
+button.action-btn {
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button.action-btn:hover {
+  background-color: #d97706;
+  transform: scale(1.05);
+}
+
+.quiz-container {
+  margin: 20px auto;
+  max-width: 600px;
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-container h3 {
+  margin-bottom: 1rem;
+}
+
+.quiz-container p {
+  margin-bottom: 0.5rem;
+}
+
+.quiz-container input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.quiz-container button {
+  margin-top: 10px;
+}
